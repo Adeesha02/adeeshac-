@@ -1,0 +1,34 @@
+question : 
+     A C program to count the number of even and odd elements in an array.
+     
+ code:
+ 
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    int b=0;
+    int c=0;
+    cin>>a;
+    int m[a];
+    for(int i=0;i<a;i++)
+    {
+        cin>>m[i];
+    }
+    for(int i=0;i<a;i++)
+    {
+        if(m[i]%2==0)
+        {
+       
+        b=b+1;
+        }
+        else
+        {
+       
+        c=c+1;
+        }
+    }
+    cout<<"Odd:"<< c <<endl;
+    cout<<"Even:"<< b;
+}
