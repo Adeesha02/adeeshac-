@@ -1,3 +1,6 @@
+question:
+    A C program to do an Arithmetic Operators.
+code:    
 #include<iostream>
 #include<cmath>
 using namespace std;
