@@ -1,0 +1,28 @@
+question:
+   to find the greatest  of two numbers
+code: 
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cin>>a;
+    b=(a*a)%10;
+    if(a<10)
+    {
+        if(a==b)
+    {
+        cout<<" Automorphic Number";
+    }
+    else
+    {
+        cout<<"Not Automorphic Number";
+    }
+    }
+    else
+    {
+        cout<<"Invalid Input";
+    }
+
+}
+
