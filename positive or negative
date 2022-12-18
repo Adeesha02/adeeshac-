@@ -1,0 +1,26 @@
+question:
+   to find positive or negative
+   
+code:
+#include<iostream>
+using namespace std;
+int main()
+{ 
+    int a;
+    cin >> a;
+    if(a<0)
+    {
+        cout << a << " Negative ";
+    }
+    else if(a>0)
+     {
+        cout << a << " positive ";
+     }
+    else
+      {
+        cout << a << "  equal to 0 ";
+     }
+     
+     
+    return 0;
+}
