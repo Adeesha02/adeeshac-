@@ -1,0 +1,15 @@
+question:
+       to find the ascii value of the given character
+       
+       
+  code:
+#include<iostream>
+using namespace std;
+int main()
+{
+     char ch;
+     cin >> ch;
+     int d=(int)ch;
+     cout << d;
+     return 0;
+}
