@@ -1,0 +1,17 @@
+question:  a C program to print the sum of given numbers. The values must be scanned until the user enters -1 as value.
+
+code:
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n1=1,sum=1;
+    while(n1>=0)
+    {
+    cin>>n1;
+    sum=sum+n1;
+    //cout<<sum;
+    }
+    cout<<sum;
+   
+}
