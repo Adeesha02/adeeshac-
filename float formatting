@@ -1,0 +1,19 @@
+question 
+      a program to get a float value from the user and display it
+      
+ code:
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    float a;
+    cin >> a;
+    printf("%f",a);
+    printf("\n%.3f",a);
+    printf("\n%.2f",a);
+    printf("\n%.1f",a);
+    return 0;
+}
+
+ 
